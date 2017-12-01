@@ -48,37 +48,37 @@ const dataArtur = [
 
 const dataBurghild = [
   {
-    title: 'In Würde, Frau Schulze',
+    title: '"In Würde, Frau Schulze"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6950',
     outputImages: ['fhxb_kkb_fa_gs0099_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19.jpg', 'fhxb_kkb_fa_gs0099_1500px_sz_0.05_mj_4_ni_20_os_1.7_oc_5_19.jpg']
   },
   {
-    title: 'In Würde, Frau Manger',
+    title: '"In Würde, Frau Manger"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6888',
     outputImages: ['fhxb_kkb_fa_gs0100_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19.jpg', 'fhxb_kkb_fa_gs0100_1500px_sz_0.05_mj_4_ni_20_os_1.7_oc_5_19.jpg']
   },
   {
-    title: 'In Würde, Herr Janowski',
+    title: '"In Würde, Herr Janowski"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6870',
     outputImages: ['fhxb_kkb_fa_gs0106_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19.jpg', 'fhxb_kkb_fa_gs0106_1500px_sz_0.05_mj_4_ni_20_os_1.7_oc_5_19.jpg']
   },
   {
-    title: 'Sozialhilfeempfängerin, Einzelhandelskauffrau',
+    title: '"Sozialhilfeempfängerin, Einzelhandelskauffrau"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6904',
     outputImages: ['fhxb_kkb_kr0225_11_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19.jpg', 'fhxb_kkb_kr0225_11_1500px_sz_0.05_mj_4_ni_20_os_1.7_oc_5_19.jpg']
   },
   {
-    title: 'Koch und Kosmetiksalon',
+    title: '"Koch und Kosmetiksalon"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6979',
     outputImages: ['fhxb_kkb_kr0225_8_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19.jpg']
   },
   {
-    title: 'Adoption, Zimmeruntervermietung',
+    title: '"Adoption, Zimmeruntervermietung"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6877',
     outputImages: ['fhxb_kkb_kr0225_3_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19.jpg']
@@ -86,59 +86,59 @@ const dataBurghild = [
 ]
 
 const dataChrista = [
+{
+  title: 'Untitled Chalk Drawing',
+  originalImage: '',
+  originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6718',
+  outputImages: ['fhxb_kkb_kr0212_1500px_sz_0.1_mj_4_ni_30_os_1.8_oc_5_29.jpg']
+},
   {
-    title: 'Acrylgemälde, ohne Titel',
+    title: 'Untitled Acrylic Paint',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6947',
     outputImages: ['fhxb_kkb_kr0011_1500px_sz_0.1_mj_4_ni_30_os_1.8_oc_5_29.jpg']
   },
   {
-    title: 'Ölgemälde, ohne Titel',
+    title: 'Untitled Oil Painting',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6878',
     outputImages: ['fhxb_kkb_kr0105_1500px_sz_0.1_mj_4_ni_30_os_1.8_oc_5_29.jpg']
   },
   {
-    title: 'Kreidezeichnung, ohne Titel',
+    title: 'Untitled Chalk Drawing',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6665',
     outputImages: ['fhxb_kkb_kr0178_1500px_sz_0.1_mj_4_ni_30_os_1.8_oc_5_29.jpg']
-  },
-  {
-    title: 'Kreidezeichnung, ohne Titel',
-    originalImage: '',
-    originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6718',
-    outputImages: ['fhxb_kkb_kr0212_1500px_sz_0.1_mj_4_ni_30_os_1.8_oc_5_29.jpg']
   },
 ];
 
 const dataErhard = [
   {
-    title: 'Hochbahnkurve in Berlin SO36',
+    title: '"Hochbahnkurve in Berlin SO36"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6759',
     outputImages: ['fhxb_kkb_fhxb0024_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19.jpg', 'fhxb_kkb_fhxb0024_1500px_sz_0.1_mj_32_ni_20_os_1.6_oc_5_19.jpg']
   },
   {
-    title: 'Guten Rutsch wünscht',
+    title: '"Guten Rutsch wünscht"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6781',
     outputImages: ['fhxb_kkb_fa_gs0138_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19_bw.jpg', 'fhxb_kkb_fa_gs0138_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19.jpg', 'fhxb_kkb_fa_gs0138_1500px_sz_0.1_mj_32_ni_20_os_1.6_oc_5_19_bw.jpg', 'fhxb_kkb_fa_gs0138_1500px_sz_0.1_mj_32_ni_20_os_1.6_oc_5_19.jpg']
   },
   {
-    title: 'Portikus Görlitzer Bahnhof',
+    title: '"Portikus Görlitzer Bahnhof"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6840',
     outputImages: ['fhxb_kkb_fhxb0036_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19.jpg']
   },
   {
-    title: 'Der Görlitzer Bahnhof wird gesprengt',
+    title: '"Der Görlitzer Bahnhof wird gesprengt"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6772',
     outputImages: ['fhxb_kkb_fa_gs0166_1500px_sz_0.1_mj_4_ni_20_os_1.6_oc_5_19.jpg', 'fhxb_kkb_fa_gs0166_1500px_sz_0.1_mj_32_ni_20_os_1.6_oc_5_19.jpg']
   },
   {
-    title: 'Gute Nachbarschaft',
+    title: '"Gute Nachbarschaft"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=6750',
     outputImages: ['fhxb_kkb_fa_gs0129_1500px_sz_0.1_mj_32_ni_20_os_1.6_oc_5_19_bw.jpg']
@@ -147,25 +147,25 @@ const dataErhard = [
 
 const dataCurt = [
   {
-    title: 'über den Dächern',
+    title: '"über den Dächern"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=7198',
     outputImages: ['fhxb_kkb_kr0036_1500px_sz_0.05_mj_4_ni_20_os_1.5_oc_6_19.jpg', 'fhxb_kkb_kr0036_1500px_sz_0.05_mj_4_ni_30_os_1.6_oc_5_29.jpg']
   },
   {
-    title: 'Eckensteher Nante',
+    title: '"Eckensteher Nante"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=7057',
     outputImages: ['fhxb_kkb_fa_gs0094_1500px_sz_0.1_mj_32_ni_20_os_1.7_oc_5_19.jpg', 'fhxb_kkb_fa_gs0094_1500px_sz_0.04_mj_4_ni_20_os_1.4_oc_7_19.jpg', 'fhxb_kkb_fa_gs0094_1500px_sz_0.05_mj_4_ni_20_os_1.5_oc_6_19.jpg']
   },
   {
-    title: 'Das Grenzhäuschen an der Oberbaumbrücke',
+    title: '"Das Grenzhäuschen an der Oberbaumbrücke"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=7108',
     outputImages: ['fhxb_kkb_fa_gs0182_1500px_sz_0.05_mj_4_ni_20_os_1.5_oc_6_19.jpg']
   },
   {
-    title: 'Berlin 61 Chamissoplatz',
+    title: '"Berlin 61 Chamissoplatz"',
     originalImage: '',
     originalUrl: 'https://www.museum-digital.de/berlin/index.php?t=objekt&oges=7300',
     outputImages: ['fhxb_kkb_fa_gs0093_1500px_sz_0.04_mj_4_ni_20_os_1.4_oc_7_19.jpg', 'fhxb_kkb_fa_gs0093_1500px_sz_0.05_mj_4_ni_20_os_1.5_oc_6_19.jpg']
