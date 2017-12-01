@@ -4,10 +4,15 @@ import { dataArtur, dataBurghild, dataChrista, dataErhard, dataCurt } from './da
 document.addEventListener('DOMContentLoaded', () => {
   let currentPath = window.location.pathname;
 
-  if (!currentPath.includes('deep-ochsenkopf'))
-    currentPath = '/deep-ochsenkopf' + currentPath;
+  // hotfix because there is problem with the width. most likly rounding issue.
+  if (navigator.userAgent.indexOf('Safari') > -1) {
+    $('#fucksafari').width($('.col-md-4').first().width() - 1);
+  }
 
-  console.log("currentPath", currentPath);
+  if (!currentPath.includes('deep-ochsenkopf')) {
+    currentPath = '/deep-ochsenkopf' + currentPath;
+  }
+
   switch (currentPath) {
     case '/deep-ochsenkopf/artur-maerchen/':
       drawImages(dataArtur, 'artur');
