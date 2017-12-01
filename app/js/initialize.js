@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (!currentPath.includes('deep-ochsenkopf'))
     currentPath = '/deep-ochsenkopf' + currentPath;
 
-    console.log("currentPath", currentPath);
-  switch(currentPath) {
+  console.log("currentPath", currentPath);
+  switch (currentPath) {
     case '/deep-ochsenkopf/artur-maerchen/':
       drawImages(dataArtur, 'artur');
       break;
