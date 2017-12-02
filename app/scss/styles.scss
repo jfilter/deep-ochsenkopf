@@ -35,3 +35,9 @@ figure button {
 h1, h2, h3 {
   font-family: 'Work Sans', sans-serif !important;
 }
+
+$a-tags: 'a, a:active, a:hover, a:visited, .btn-link, .btn-link:hover, .btn-link:visited, .btn-link:active';
+
+#{$a-tags} {
+  color: #006bf9;
+}

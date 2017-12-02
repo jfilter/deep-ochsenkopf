@@ -34,7 +34,8 @@
                         <h1>Deep Ochsenkopf<br><small>Deep Dream with Historical Watermarks</small></h1>
                     </div>
                 <article>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, molestiae, repellat? Sed minus pariatur laboriosam eum doloremque voluptatibus, qui. Excepturi dolorum autem ea voluptatum nostrum aspernatur suscipit odio, enim temporibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dolor, architecto earum nisi eius nam odio harum dicta ducimus laborum blanditiis qui vel, hic, esse fugiat cum iste, eligendi nulla.
+                  <h3>Abstract</h3>
+                  We use a technique called <i>Deep Dream</i> to generate hallucinating images. In order to do so, first, an artificial neural network was trained on historical watermarks. The watermarks have been digitized by the Universität Leipzig and are mostly some forms of oxhead (German <i>Ochsenkopf</i>). We have managed to train a network that can classifiy watermarks with an accurary of over 95%. With the network, Deep Dream lets us feed arbitrary images into it to create dreamy images. The algorithm enhances strutures or features in an input images that resembles those of the data that is was trained on, most dominantly the oxheads. On this website, you can see the results of applying Deep Ochsenkopf to works of five visual artists from the collection "Kreuzberger Boheme" of the FHXB Friedrichshain-Kreuzberg Museum.
                     <br><br>
                 </article>
                 </div>
@@ -91,7 +92,7 @@
                       </div>
                         <div class="col-sm-12 col-md-4">
                         <div class="thumbnail">
-                            <a href="#">
+                            <a href="https://one.vis.one/deep-ochsenkopf-generator">
                                 <img src="images/dreamed_johannes.jpg" alt="...">
                                 <div class="caption">
                                     <h3>Upload your Image</h3>
@@ -105,29 +106,31 @@
                     <div class="row">
                         <div class="col-md-6 col-md-offset-3">
                     <article>
-                        In recent years, Machine Learning and especially so-called 'Deep Learning’ with Artificial Neural Networks have established themselves as megatrends. In this project, we use this latest technological development and combine it with some medieval cultural goods to create some very modern art. But first things first, what inspired us to do so?
+                        <h3>Detailed Description</h1>
+                        In recent years, Machine Learning and especially so-called 'Deep Learning' with Artificial Neural Networks have established themselves as megatrends. In this project, we use this latest technological development and combine it with some medieval cultural goods to create some very modern art. But first things first, what inspired us to do so?
                         <br><br>
                         <figure>
                             <img class="img-responsive" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Deep-dream-white-noise-0045.jpg/1024px-Deep-dream-white-noise-0045.jpg" alt="Deep Dream image showing parts of dogs">
                             <figcaption>Deep Dream image which started with white noise. <a href="https://commons.wikimedia.org/wiki/File:Deep-dream-white-noise-0045.jpg">Source</a></figcaption>
                         </figure>
                         <br>
-                        In 2015, Google presented 'Deep Dream’ which is a technique to better understand how artificial neural networks see the world. The algorithm enhanced features or structures it recognizes in an input image. As a side effect, it creates hallucinating images which some people compare to the effect of psychedelic drugs such as LSD. But an artificial neural network can only output something it has learned. During the time Deep Dream went viral, the networks were mostly trained on dogs because there was a machine learning competition on dog breeds. As a consequence, most pictures were dreaming of puppies. But there is more to the world than just puppies. So we want to dream about something completely different: historical watermarks.
+                        In 2015, Google presented <a href="https://en.wikipedia.org/wiki/DeepDream">Deep Dream</a> which is a technique to better understand how artificial neural networks see the world. The algorithm enhanced features or structures it recognizes in an input image. As a side effect, it creates hallucinating images which some people compare to the effect of psychedelic drugs such as LSD. But an artificial neural network can only output something it has learned. During the time Deep Dream went viral, <a href="https://www.fastcodesign.com/3048941/why-googles-deep-dream-ai-hallucinates-in-dog-faces">the networks were mostly trained on dogs</a> because there was a machine learning competition on dog breeds. As a consequence, most pictures were dreaming of puppies. But there is more to the world than just puppies. So we want to dream about something completely different: historical watermarks.
                         <br><br>
                         <figure>
                             <img class="img-responsive" src="images/watermarks.png" alt="Historical Watermarks">
-                            <figcaption>Categories of historical watermarks used for training the network. <a href="https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/wasserzeichen-informationssystem-wzis/">See more.</a></figcaption>
+                            <figcaption>Categories of historical watermarks. <a href="https://www.ub.uni-leipzig.de/forschungsbibliothek/projekte/projekte-chronologisch-alle/wasserzeichen-informationssystem-wzis/">More information about watermarks.</a></figcaption>
                         </figure>
                         <br>
-                        Since the beginning of the paper production in the 13th century, watermarks were used to indicate origin and quality of the paper. They were made out of wire and produced a negative impression on the paper. Nowadays, the marks are used to put historical writings into context and estimate age. A collection of over 5000 items were digitized and categorized by the Universitätsbibliothek Leipzig. We want a system to learn this data. But training a network from scratch is beyond our resources that is why we ‘fine-tuned’ a pre-trained one. This means that we took a network that was trained for weeks on multiple computers on a different data set and adapt it to our need. The result was a network that could assign watermarks to different categories with an accuracy of 95%.
+                        Since the beginning of the paper production in the 13th century, watermarks were used to indicate origin and quality of the paper. They were made out of wire and produced a negative impression on the paper. Nowadays, the marks are used to put historical writings into context and estimate age. A collection of over 5000 items were digitized and categorized by the Universitätsbibliothek Leipzig. We want a system to learn this data. But training a network from scratch is beyond our resources that is why we <a href="http://cs231n.github.io/transfer-learning/">fine-tuned</a> a pre-trained one. This means that we took a network that was trained for weeks on multiple computers on a different data set and adapt it to our need. The result was a network that could assign watermarks to different categories with an accuracy of over 95%.
                         <br><br>
-                        After that, we can feed arbitrary images into the network to find structures that resemble those watermarks. Because the watermarks are mainly different variations of oxheads (Ochsenköpfe), it also produces oxhead structures. Most dominantly, it picked up the round upper face with a horn going up in the middle. We dreamt on some images of the FHXB Friedrichshain-Kreuzberg Museum and present the result on our website. There, you can also upload your own images in order to bring the Ochsenkopf style to your images as well. In addition, there are instructions on how to get the network running on your own computer.
+                        After that, we can feed arbitrary images into the network to find structures that resemble those watermarks. Because the watermarks are mainly different variations of oxheads (Ochsenköpfe), it also produces oxhead structures. Most dominantly, it picked up the round upper face with a horn going up in the middle. We dreamed on images of the collection <a href="https://www.museum-digital.de/berlin/index.php?t=sammlung&suinin=1&suinsa=62&gesusa=61">"Kreuzberger Boheme" of the FHXB Friedrichshain-Kreuzberg Museum</a> and you can the results on this website.
                         <br><br>
-                        The whole process turned out to be rather difficult because of a lack of appropriate tooling, tutorials, and documentation. While it is clear for some, it may not be clear for everybody. There is no ‘make a deep dream for my dataset’ click tool. Training the network in particular turned out to be rather difficult because there are so many different knobs to fiddle and parameters to tune. It took us over five weeks to produce a network that picks up high-level structures of the marks. The result of this project will also be – besides working code – a long blog post to give step for step instructions on how to produce your own deep dreams.
+                        The whole process turned out to be rather difficult because of a lack of appropriate tooling, tutorials, and documentation. Training the network in particular turned out to be rather difficult because there are so many different knobs to fiddle and parameters to tune. It took us over five weeks to produce a network that picks up high-level structures of the marks. The result of this project will also be – besides working code – a long follow-up blog post to give step for step instructions on how to produce your own deep dreams.
                     </article>
                     <hr>
                     <footer>
-                        by Johannes Filter, 29.11.2017<br><br>
+                        by <a href="https://johannesfilter.com/contact/">Johannes Filter</a>
+                        <br><br>
                         for the cultural hackathon "Coding Da Vinci Berlin 2017"<br><br>
                         <a href="http://codingdavinci.de">
                             <img src="images/cdv-logo.png" alt="Coding Da Vinci">
